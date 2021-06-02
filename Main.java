@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,8 +10,8 @@ public class Main {
     cast.add("Erin Morarity");
 
     TVEpisode theBoys = new TVEpisode("The Name Of The Game", 60, "Dan Trachtenberg", cast);
-        System.out.println(theBoys);
-        System.out.println(cast);
+        System.out.println(theBoys.getCast());
+
 
     }
 }
