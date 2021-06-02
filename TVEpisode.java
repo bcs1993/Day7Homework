@@ -19,10 +19,11 @@ public class TVEpisode {
         this.cast = cast;
     }
 
-    public TVEpisode(String title, int length, String director, ArrayList cast) {
+    public TVEpisode(String title, int length, String director, ArrayList<String> cast) {
         this.title = title;
         this.length = length;
         this.director = director;
+        this.cast = cast;
 
 
     }
